@@ -1,0 +1,41 @@
+body {
+    height: 500vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.black-area {
+    height: 300vh;
+    background: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.svg-drawing {
+    margin-top: 60vh;
+}
+
+.content {
+    width: 100vw;
+    height: 200vh;
+    background-image: url("winter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -999;
+}
+
+.gradient {
+    height: 200vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(#FFFFFF00, #000000);
+}
